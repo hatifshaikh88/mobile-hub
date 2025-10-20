@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Accessories Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mobile Accessories Store</h1>
+            <p class="tagline">Quality Accessories for Your Mobile Devices</p>
+        </header>
+
+        <main>
+            <h2 class="page-title">Product Categories</h2>
+            <div class="category-grid" id="categoryGrid">
+                <!-- COPY FROM HERE TO ADD NEW CATEGORY -->
+                <div class="category-card" onclick="navigateToProducts('chargers')">
+                    <div class="category-icon">🔌</div>
+                    <h3>Chargers</h3>
+                    <p>Fast & Safe Charging</p>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW CATEGORY -->
+                <div class="category-card" onclick="navigateToProducts('cables')">
+                    <div class="category-icon">🔗</div>
+                    <h3>Cables</h3>
+                    <p>Durable & Fast Cables</p>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW CATEGORY -->
+                <div class="category-card" onclick="navigateToProducts('earphones')">
+                    <div class="category-icon">🎧</div>
+                    <h3>Earphones</h3>
+                    <p>Premium Sound Quality</p>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW CATEGORY -->
+                <div class="category-card" onclick="navigateToProducts('cases')">
+                    <div class="category-icon">📱</div>
+                    <h3>Phone Cases</h3>
+                    <p>Protect Your Device</p>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW CATEGORY -->
+                <div class="category-card" onclick="navigateToProducts('screenguards')">
+                    <div class="category-icon">🛡️</div>
+                    <h3>Screen Guards</h3>
+                    <p>Scratch Protection</p>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW CATEGORY -->
+                <div class="category-card" onclick="navigateToProducts('powerbanks')">
+                    <div class="category-icon">🔋</div>
+                    <h3>Power Banks</h3>
+                    <p>Portable Power Solutions</p>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- ADD MORE CATEGORIES BY COPYING THE BLOCK ABOVE -->
+                <!-- Just change: onclick="navigateToProducts('YOUR_CATEGORY_ID')" -->
+                <!-- And update the icon, title, and description -->
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h4>Contact Us</h4>
+                    <p>📞 82372 56620</p>
+                </div>
+                <div class="footer-item">
+                    <h4>Visit Us</h4>
+                    <a href="YOUR_GOOGLE_MAPS_LINK_HERE" target="_blank" class="map-link">
+                        📍 View on Google Maps
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <h4>WhatsApp</h4>
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER_HERE" target="_blank" class="whatsapp-link">
+                        💬 Chat with us
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

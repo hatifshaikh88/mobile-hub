@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Mobile Accessories Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mobile Accessories Store</h1>
+            <button class="back-btn" onclick="goBack('index.html')">← Back to Categories</button>
+        </header>
+
+        <main>
+            <h2 class="page-title" id="categoryTitle">Products</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- CHARGERS SECTION - COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card chargers" onclick="navigateToDetails('charger-001')">
+                    <img src="https://via.placeholder.com/250x250?text=Charger+1" alt="Fast Charger 20W">
+                    <div class="product-info">
+                        <h3>Fast Charger 20W</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹999</span>
+                            <span class="discount-price">₹599</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card chargers" onclick="navigateToDetails('charger-002')">
+                    <img src="https://via.placeholder.com/250x250?text=Charger+2" alt="Quick Charge 3.0">
+                    <div class="product-info">
+                        <h3>Quick Charge 3.0</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹1299</span>
+                            <span class="discount-price">₹799</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- CABLES SECTION - COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card cables" onclick="navigateToDetails('cable-001')">
+                    <img src="https://via.placeholder.com/250x250?text=Cable+1" alt="USB-C Cable">
+                    <div class="product-info">
+                        <h3>USB-C Cable 1.5m</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹499</span>
+                            <span class="discount-price">₹299</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card cables" onclick="navigateToDetails('cable-002')">
+                    <img src="https://via.placeholder.com/250x250?text=Cable+2" alt="Lightning Cable">
+                    <div class="product-info">
+                        <h3>Lightning Cable 2m</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹699</span>
+                            <span class="discount-price">₹449</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- EARPHONES SECTION - COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card earphones" onclick="navigateToDetails('earphone-001')">
+                    <img src="https://via.placeholder.com/250x250?text=Earphone+1" alt="Wireless Earbuds">
+                    <div class="product-info">
+                        <h3>Wireless Earbuds Pro</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹2999</span>
+                            <span class="discount-price">₹1999</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card earphones" onclick="navigateToDetails('earphone-002')">
+                    <img src="https://via.placeholder.com/250x250?text=Earphone+2" alt="Wired Earphones">
+                    <div class="product-info">
+                        <h3>Wired Earphones HD</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹799</span>
+                            <span class="discount-price">₹499</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- CASES SECTION - COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card cases" onclick="navigateToDetails('case-001')">
+                    <img src="https://via.placeholder.com/250x250?text=Case+1" alt="Silicone Case">
+                    <div class="product-info">
+                        <h3>Silicone Phone Case</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹599</span>
+                            <span class="discount-price">₹349</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- SCREEN GUARDS SECTION - COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card screenguards" onclick="navigateToDetails('guard-001')">
+                    <img src="https://via.placeholder.com/250x250?text=Guard+1" alt="Tempered Glass">
+                    <div class="product-info">
+                        <h3>Tempered Glass Screen Guard</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹399</span>
+                            <span class="discount-price">₹249</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- POWER BANKS SECTION - COPY FROM HERE TO ADD NEW PRODUCT -->
+                <div class="product-card powerbanks" onclick="navigateToDetails('powerbank-001')">
+                    <img src="https://via.placeholder.com/250x250?text=PowerBank+1" alt="10000mAh Power Bank">
+                    <div class="product-info">
+                        <h3>10000mAh Power Bank</h3>
+                        <div class="price-container">
+                            <span class="original-price">₹1999</span>
+                            <span class="discount-price">₹1299</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TO HERE -->
+
+                <!-- TO ADD MORE PRODUCTS: -->
+                <!-- 1. Copy any product block above (from COPY FROM HERE to TO HERE) -->
+                <!-- 2. Change the class="product-card YOUR_CATEGORY" to match category -->
+                <!-- 3. Update onclick="navigateToDetails('UNIQUE_PRODUCT_ID')" -->
+                <!-- 4. Replace image src, product name, and prices -->
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h4>Contact Us</h4>
+                    <p>📞 82372 56620</p>
+                </div>
+                <div class="footer-item">
+                    <h4>Visit Us</h4>
+                    <a href="YOUR_GOOGLE_MAPS_LINK_HERE" target="_blank" class="map-link">
+                        📍 View on Google Maps
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <h4>WhatsApp</h4>
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER_HERE" target="_blank" class="whatsapp-link">
+                        💬 Chat with us
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

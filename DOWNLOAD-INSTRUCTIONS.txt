@@ -1,0 +1,56 @@
+================================
+MOBILE ACCESSORIES WEBSITE
+DOWNLOAD INSTRUCTIONS
+================================
+
+YOUR WEBSITE IS READY!
+
+DOWNLOAD FILE:
+-------------
+File name: mobile-accessories-website.tar.gz
+Location: Project root folder
+
+WHAT'S INCLUDED:
+---------------
+✓ 3 HTML pages (index, products, details)
+✓ 1 CSS file (green & white theme)
+✓ 1 JavaScript file (all functionality)
+✓ 1 README file (detailed instructions)
+
+HOW TO USE:
+-----------
+1. Download the file: mobile-accessories-website.tar.gz
+2. Extract it on your computer
+3. Open index.html in any web browser
+4. Works on Windows, Android, iOS, Mac, Linux
+
+FEATURES:
+---------
+✓ Page 1: Product Categories (grid layout with borders and spacing)
+✓ Page 2: Products listing (with original/discounted prices)
+✓ Page 3: Product details (image gallery + descriptions)
+✓ Footer on all pages (contact, maps, WhatsApp)
+✓ Easy copy-paste structure to add new items
+✓ Green and white color theme
+✓ Fully responsive (mobile + desktop)
+
+CUSTOMIZATION:
+--------------
+- Read the README.txt file inside for step-by-step instructions
+- Add categories by copying code blocks
+- Add products by copying code blocks
+- Add images and descriptions easily
+- Update footer information (Google Maps, WhatsApp)
+
+NO INSTALLATION NEEDED:
+-----------------------
+Just extract and open in browser!
+No server, no database, no complex setup.
+
+CONTACT:
+--------
+Phone: 82372 56620
+
+================================
+HAPPY SELLING!
+================================
