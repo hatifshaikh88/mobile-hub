@@ -8,9 +8,9 @@ const productData = {
         originalPrice: '₹999',
         discountPrice: '₹599',
         images: [
-            'https://via.placeholder.com/600x600?text=Charger+1+Image+1',
-            'https://via.placeholder.com/600x600?text=Charger+1+Image+2',
-            'https://via.placeholder.com/600x600?text=Charger+1+Image+3'
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklV__CnIcy0Wi3Ln5ChxjrPryQ4sl24y8AQ&s',
+            'https://5.imimg.com/data5/SELLER/Default/2023/3/296260580/QA/HR/CQ/58589463/png-65-w-fast-charger.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTVogJPJvwzjaQnDy0NGymdXZ1RuQPnSKDwApAh_u8FbEI8mxcbBn8Forvaa_G-uNZGE4&usqp=CAU'
             // ADD MORE IMAGE URLS HERE BY COPYING THE LINE ABOVE
         ],
         description: [
@@ -31,8 +31,8 @@ const productData = {
         originalPrice: '₹1299',
         discountPrice: '₹799',
         images: [
-            'https://via.placeholder.com/600x600?text=Charger+2+Image+1',
-            'https://via.placeholder.com/600x600?text=Charger+2+Image+2'
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJLVS0Sz6981Ve5lFMS2BXZ5hu0SuInxfYCq2r8loIUYYJ807F4vMXQrRaV7hBJrTccM&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbFRcI9BASqt9-hPUotPnVq6m1M1hyoLtkfaEnFFrO3bym-ow82l9v3y3VCkLDmlCO0Aw&usqp=CAU'
         ],
         description: [
             'Quick Charge 3.0 technology',
@@ -50,9 +50,9 @@ const productData = {
         originalPrice: '₹499',
         discountPrice: '₹299',
         images: [
-            'https://via.placeholder.com/600x600?text=Cable+1+Image+1',
-            'https://via.placeholder.com/600x600?text=Cable+1+Image+2',
-            'https://via.placeholder.com/600x600?text=Cable+1+Image+3'
+            'images/P10/1.png',
+            'images/P10/2.png',
+            'images/P10/3.png'
         ],
         description: [
             'Premium USB-C to USB-A cable',
@@ -71,8 +71,9 @@ const productData = {
         originalPrice: '₹699',
         discountPrice: '₹449',
         images: [
-            'https://via.placeholder.com/600x600?text=Cable+2+Image+1',
-            'https://via.placeholder.com/600x600?text=Cable+2+Image+2'
+            'images/P9/1.png',
+            'images/P9/2.png',
+            'images/P9/3.png',
         ],
         description: [
             'MFi certified Lightning cable',
@@ -90,7 +91,7 @@ const productData = {
         originalPrice: '₹2999',
         discountPrice: '₹1999',
         images: [
-            'https://via.placeholder.com/600x600?text=Earphone+1+Image+1',
+            'images/P8/1.png',
             'https://via.placeholder.com/600x600?text=Earphone+1+Image+2',
             'https://via.placeholder.com/600x600?text=Earphone+1+Image+3',
             'https://via.placeholder.com/600x600?text=Earphone+1+Image+4'
